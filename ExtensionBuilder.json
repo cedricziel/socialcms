@@ -648,7 +648,8 @@
                     "_default4_delete": true,
                     "customActions": [
                         "like",
-                        "comment"
+                        "comment",
+                        "hide"
                     ]
                 },
                 "name": "ActivityStreamsEntry",
@@ -1034,9 +1035,9 @@
         "plugins": [
             {
                 "actions": {
-                    "controllerActionCombinations": "ActivityStreamsEntry=>list,show,hide,like,comment,create",
-                    "noncacheableActions": "ActivityStreamsEntry=>list,show,hide,like,comment,create",
-                    "switchableActions": "ActivityStreamsEntry->list; ActivityStreamsEntry->show; ActivityStreamsEntry->hide; ActivityStreamsEntry->like; ActivityStreamsEntry->comment; ActivityStreamsEntry->create"
+                    "controllerActionCombinations": "ActivityStreamsEntry=>list,show,hide,like,comment,create,new",
+                    "noncacheableActions": "ActivityStreamsEntry=>list,show,hide,like,comment,create,new",
+                    "switchableActions": "ActivityStreamsEntry->list; ActivityStreamsEntry->show; ActivityStreamsEntry->hide; ActivityStreamsEntry->like; ActivityStreamsEntry->comment; ActivityStreamsEntry->create; ActivityStreamsEntry->new"
                 },
                 "key": "main",
                 "name": "SocialCMS"
@@ -1155,7 +1156,7 @@
         }
     ],
     "log": {
-        "last_modified": "2014-09-02 09:45",
+        "last_modified": "2014-09-02 09:58",
         "extension_builder_version": "6.2.0",
         "be_user": " (1)"
     }

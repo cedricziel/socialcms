@@ -1,14 +1,15 @@
+
 plugin.tx_socialcms {
-    view {
-        # cat=plugin.tx_socialcms/file; type=string; label=Path to template root (FE)
-        templateRootPath = EXT:socialcms/Resources/Private/Templates/
-        # cat=plugin.tx_socialcms/file; type=string; label=Path to template partials (FE)
-        partialRootPath = EXT:socialcms/Resources/Private/Partials/
-        # cat=plugin.tx_socialcms/file; type=string; label=Path to template layouts (FE)
-        layoutRootPath = EXT:socialcms/Resources/Private/Layouts/
-    }
-    persistence {
-        # cat=plugin.tx_socialcms//a; type=string; label=Default storage PID
-        storagePid =
-    }
+	view {
+		# cat=plugin.tx_socialcms/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:socialcms/Resources/Private/Templates/
+		# cat=plugin.tx_socialcms/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:socialcms/Resources/Private/Partials/
+		# cat=plugin.tx_socialcms/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:socialcms/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_socialcms//a; type=string; label=Default storage PID
+		storagePid =
+	}
 }

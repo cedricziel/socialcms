@@ -1,25 +1,26 @@
-<f:layout name="Default"/>
+
+<f:layout name="Default" />
 
 This template displays a NEW form for the current domain object.
 
 If you modify this template, do not forget to change the overwrite settings
 in /Configuration/ExtensionBuilder/settings.yaml:
-Resources:
-Private:
-Templates:
-New.html: keep
+  Resources:
+    Private:
+      Templates:
+        New.html: keep
 
 Otherwise your changes will be overwritten the next time you save the extension in the extension builder
 
 <f:section name="main">
-    <h1>New ActivityStreamsEntry</h1>
+<h1>New ActivityStreamsEntry</h1>
 
-    <f:flashMessages renderMode="div"/>
+<f:flashMessages renderMode="div" />
 
-    <f:render partial="FormErrors" arguments="{object:ActivityStreamsEntry}"/>
+<f:render partial="FormErrors" arguments="{object:ActivityStreamsEntry}" />
 
-    <f:form action="create" name="newActivityStreamsEntry" object="{newActivityStreamsEntry}">
-        <f:render partial="ActivityStreamsEntry/FormFields"/>
-        <f:form.submit value="Create new"/>
-    </f:form>
+<f:form action="create"  name="newActivityStreamsEntry" object="{newActivityStreamsEntry}">
+<f:render partial="ActivityStreamsEntry/FormFields" />
+	<f:form.submit value="Create new" />
+</f:form>
 </f:section>

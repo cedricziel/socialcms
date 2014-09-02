@@ -1,256 +1,89 @@
-<f:layout name="Default"/>
+
+<f:layout name="Default" />
 
 This Template is responsible for creating a table of domain objects.
 
 If you modify this template, do not forget to change the overwrite settings
 in /Configuration/ExtensionBuilder/settings.yaml:
-Resources:
-Private:
-Templates:
-List.html: keep
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
 
 Otherwise your changes will be overwritten the next time you save the extension in the extension builder
 
 <f:section name="main">
-    <h1>Listing for ActivityStreamsEntry</h1>
+<h1>Listing for ActivityStreamsEntry</h1>
 
-    <f:flashMessages renderMode="div"/>
+<f:flashMessages renderMode="div" />
 
-    <table class="tx_socialcms">
-        <tr>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.title"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.verb"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.user_id"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.group_id"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.app_id"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.bcc"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.bto"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.cc"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.context"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.dc"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.end_time"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.geojson"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.in_reply_to"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.ld"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.links"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.location"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.mood"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.odata"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.opengraph"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.priority"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.rating"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.result"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.schema_org"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.source"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.start_time"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.tags"/>
-            </th>
-            <th>
-                <f:translate key="tx_socialcms_domain_model_activitystreamsentry.to_object"/>
-            </th>
-            <th></th>
-            <th></th>
-        </tr>
+<table  class="tx_socialcms" >
+	<tr>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.title" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.verb" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.user_id" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.group_id" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.app_id" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.bcc" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.bto" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.cc" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.context" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.dc" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.end_time" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.geojson" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.in_reply_to" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.ld" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.links" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.location" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.mood" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.odata" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.opengraph" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.priority" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.rating" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.result" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.schema_org" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.source" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.start_time" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.tags" /></th>
+		<th><f:translate key="tx_socialcms_domain_model_activitystreamsentry.to_object" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
 
-        <f:for each="{activityStreamsEntries}" as="activityStreamsEntry">
-            <tr>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.title}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.verb}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.userId}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.groupId}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.appId}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.bcc}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.bto}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.cc}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.context}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.dc}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.endTime -> f:format.date()}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.geojson}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.inReplyTo}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.ld}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.links}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.location}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.mood}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.odata}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.opengraph}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.priority}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.rating}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.result}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.schemaOrg}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.source}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.startTime -> f:format.date()}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.tags}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}">
-                        {activityStreamsEntry.toObject}
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="edit" arguments="{activityStreamsEntry : activityStreamsEntry}">Edit
-                    </f:link.action>
-                </td>
-                <td>
-                    <f:link.action action="delete" arguments="{activityStreamsEntry : activityStreamsEntry}">Delete
-                    </f:link.action>
-                </td>
-            </tr>
-        </f:for>
-    </table>
+	<f:for each="{activityStreamsEntries}" as="activityStreamsEntry">
+		<tr>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.verb}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.userId}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.groupId}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.appId}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.bcc}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.bto}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.cc}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.context}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.dc}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.endTime -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.geojson}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.inReplyTo}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.ld}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.links}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.location}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.mood}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.odata}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.opengraph}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.priority}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.rating}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.result}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.schemaOrg}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.source}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.startTime -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.tags}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{activityStreamsEntry : activityStreamsEntry}"> {activityStreamsEntry.toObject}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{activityStreamsEntry : activityStreamsEntry}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{activityStreamsEntry : activityStreamsEntry}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
 
-    <f:link.action action="new">New ActivityStreamsEntry</f:link.action>
+<f:link.action action="new">New ActivityStreamsEntry</f:link.action>
 </f:section>

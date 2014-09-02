@@ -1,16 +1,17 @@
+
 plugin.tx_socialcms {
-    view {
-        templateRootPath = {$plugin.tx_socialcms.view.templateRootPath}
-        partialRootPath = {$plugin.tx_socialcms.view.partialRootPath}
-        layoutRootPath = {$plugin.tx_socialcms.view.layoutRootPath}
-    }
-    persistence {
-        storagePid = {$plugin.tx_socialcms.persistence.storagePid}
-    }
-    features {
-        # uncomment the following line to enable the new Property Mapper.
-        # rewrittenPropertyMapper = 1
-    }
+	view {
+		templateRootPath = {$plugin.tx_socialcms.view.templateRootPath}
+		partialRootPath = {$plugin.tx_socialcms.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_socialcms.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_socialcms.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
 }
 
 plugin.tx_socialcms._CSS_DEFAULT_STYLE (

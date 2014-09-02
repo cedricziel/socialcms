@@ -7,12 +7,12 @@ if (!defined('TYPO3_MODE')) {
 	'CedricZiel.' . $_EXTKEY,
 	'Main',
 	array(
-		'ActivityStreamsEntry' => 'list, show, hide, like, comment, create',
-
+		'ActivityStreamsEntry' => 'list, show, hide, like, comment, create, new',
+		
 	),
 	// non-cacheable actions
 	array(
-		'ActivityStreamsEntry' => 'list, show, hide, like, comment, create',
-
+		'ActivityStreamsEntry' => 'list, show, hide, like, comment, create, new',
+		
 	)
 );
