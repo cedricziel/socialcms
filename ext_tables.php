@@ -3,6 +3,16 @@ if (!defined('TYPO3_MODE')) {
 	die('Access denied.');
 }
 
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+	$_EXTKEY,
+	'Main',
+	'SocialCMS'
+);
+
+$pluginSignature = str_replace('_', '', $_EXTKEY) . '_main';
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($pluginSignature, 'FILE:EXT:' . $_EXTKEY . '/Configuration/FlexForms/flexform_main.xml');
+
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'SocialCMS');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_socialcms_domain_model_activitystreamsitem', 'EXT:socialcms/Resources/Private/Language/locallang_csh_tx_socialcms_domain_model_activitystreamsitem.xlf');

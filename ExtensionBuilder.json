@@ -641,12 +641,15 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
-                    "_default1_show": false,
-                    "_default2_new_create": false,
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
                     "_default3_edit_update": false,
-                    "_default4_delete": false,
-                    "customActions": []
+                    "_default4_delete": true,
+                    "customActions": [
+                        "like",
+                        "comment"
+                    ]
                 },
                 "name": "ActivityStreamsEntry",
                 "objectsettings": {
@@ -1028,7 +1031,17 @@
                 "role": "Developer"
             }
         ],
-        "plugins": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "ActivityStreamsEntry=>list,show,hide,like,comment,create",
+                    "noncacheableActions": "ActivityStreamsEntry=>list,show,hide,like,comment,create",
+                    "switchableActions": "ActivityStreamsEntry->list; ActivityStreamsEntry->show; ActivityStreamsEntry->hide; ActivityStreamsEntry->like; ActivityStreamsEntry->comment; ActivityStreamsEntry->create"
+                },
+                "key": "main",
+                "name": "SocialCMS"
+            }
+        ],
         "vendorName": "CedricZiel"
     },
     "wires": [
@@ -1142,7 +1155,7 @@
         }
     ],
     "log": {
-        "last_modified": "2014-09-02 07:53",
+        "last_modified": "2014-09-02 09:45",
         "extension_builder_version": "6.2.0",
         "be_user": " (1)"
     }

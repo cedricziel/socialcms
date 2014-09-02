@@ -1,287 +1,291 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:53:08Z" product-name="socialcms">
-		<header/>
-		<body>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem">
-				<source>Activity Streams Item</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.id">
-				<source>Id</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.published">
-				<source>Published</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.updated">
-				<source>Updated</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.url">
-				<source>Url</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.object_type">
-				<source>Object Type</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.open_social">
-				<source>Open Social</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.extensions">
-				<source>Extensions</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms.tx_extbase_type">
-				<source>Record Type</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms.tx_extbase_type.0">
-				<source>Default</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsItem">
-				<source>SocialCMS ActivityStreamsItem</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject">
-				<source>Activity Streams Object</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.content">
-				<source>Content</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.display_name">
-				<source>Display Name</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.downstream_duplicates">
-				<source>Downstream Duplicates</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.summary">
-				<source>Summary</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.upstream_duplicates">
-				<source>Upstream Duplicates</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.alias">
-				<source>Alias</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attended_by">
-				<source>Attended By</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attending">
-				<source>Attending</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.dc">
-				<source>Dc</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.end_time">
-				<source>End Time</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.followers">
-				<source>Followers</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.following">
-				<source>Following</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.friend_requests">
-				<source>Friend Requests</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.friends">
-				<source>Friends</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.geojson">
-				<source>Geojson</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.invited">
-				<source>Invited</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.likes">
-				<source>Likes</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.ld">
-				<source>Ld</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.links">
-				<source>Links</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.location">
-				<source>Location</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.maybe_attending">
-				<source>Maybe Attending</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.members">
-				<source>Members</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.not_attended_by">
-				<source>Not Attended By</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.mood">
-				<source>Mood</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.not_attending">
-				<source>Not Attending</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.odata">
-				<source>Odata</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.opengraph">
-				<source>Opengraph</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.rating">
-				<source>Rating</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.replies">
-				<source>Replies</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.reviews">
-				<source>Reviews</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.saves">
-				<source>Saves</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.schema_org">
-				<source>Schema Org</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.shares">
-				<source>Shares</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.source">
-				<source>Source</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.start_time">
-				<source>Start Time</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attachments">
-				<source>Attachments</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.author">
-				<source>Author</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.image">
-				<source>Image</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsObject">
-				<source>SocialCMS ActivityStreamsObject</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink">
-				<source>Activity Streams Media Link</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.id">
-				<source>Id</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.duration">
-				<source>Duration</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.height">
-				<source>Height</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.url">
-				<source>Url</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.width">
-				<source>Width</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.open_social">
-				<source>Open Social</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry">
-				<source>Activity Streams Entry</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.title">
-				<source>Title</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.verb">
-				<source>Verb</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.user_id">
-				<source>User Id</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.group_id">
-				<source>Group Id</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.app_id">
-				<source>App Id</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.bcc">
-				<source>Bcc</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.bto">
-				<source>Bto</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.cc">
-				<source>Cc</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.context">
-				<source>Context</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.dc">
-				<source>Dc</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.end_time">
-				<source>End Time</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.geojson">
-				<source>Geojson</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.in_reply_to">
-				<source>In Reply To</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.ld">
-				<source>Ld</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.links">
-				<source>Links</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.location">
-				<source>Location</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.mood">
-				<source>Mood</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.odata">
-				<source>Odata</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.opengraph">
-				<source>Opengraph</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.priority">
-				<source>Priority</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.rating">
-				<source>Rating</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.result">
-				<source>Result</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.schema_org">
-				<source>Schema Org</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.source">
-				<source>Source</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.start_time">
-				<source>Start Time</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.tags">
-				<source>Tags</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.to_object">
-				<source>To Object</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.actor">
-				<source>Actor</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.generator">
-				<source>Generator</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.icon">
-				<source>Icon</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.object">
-				<source>Object</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.provider">
-				<source>Provider</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsentry.target">
-				<source>Target</source>
-			</trans-unit>
-			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsEntry">
-				<source>SocialCMS ActivityStreamsEntry</source>
-			</trans-unit>
-		</body>
-	</file>
+    <file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T21:45:46Z"
+          product-name="socialcms">
+        <header/>
+        <body>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem">
+                <source>Activity Streams Item</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.id">
+                <source>Id</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.published">
+                <source>Published</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.updated">
+                <source>Updated</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.url">
+                <source>Url</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.object_type">
+                <source>Object Type</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.open_social">
+                <source>Open Social</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsitem.extensions">
+                <source>Extensions</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms.tx_extbase_type">
+                <source>Record Type</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms.tx_extbase_type.0">
+                <source>Default</source>
+            </trans-unit>
+            <trans-unit
+                    id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsItem">
+                <source>SocialCMS ActivityStreamsItem</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject">
+                <source>Activity Streams Object</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.content">
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.display_name">
+                <source>Display Name</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.downstream_duplicates">
+                <source>Downstream Duplicates</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.summary">
+                <source>Summary</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.upstream_duplicates">
+                <source>Upstream Duplicates</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.alias">
+                <source>Alias</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attended_by">
+                <source>Attended By</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attending">
+                <source>Attending</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.dc">
+                <source>Dc</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.end_time">
+                <source>End Time</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.followers">
+                <source>Followers</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.following">
+                <source>Following</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.friend_requests">
+                <source>Friend Requests</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.friends">
+                <source>Friends</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.geojson">
+                <source>Geojson</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.invited">
+                <source>Invited</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.likes">
+                <source>Likes</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.ld">
+                <source>Ld</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.links">
+                <source>Links</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.location">
+                <source>Location</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.maybe_attending">
+                <source>Maybe Attending</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.members">
+                <source>Members</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.not_attended_by">
+                <source>Not Attended By</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.mood">
+                <source>Mood</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.not_attending">
+                <source>Not Attending</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.odata">
+                <source>Odata</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.opengraph">
+                <source>Opengraph</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.rating">
+                <source>Rating</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.replies">
+                <source>Replies</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.reviews">
+                <source>Reviews</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.saves">
+                <source>Saves</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.schema_org">
+                <source>Schema Org</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.shares">
+                <source>Shares</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.source">
+                <source>Source</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.start_time">
+                <source>Start Time</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.attachments">
+                <source>Attachments</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.author">
+                <source>Author</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsobject.image">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit
+                    id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsObject">
+                <source>SocialCMS ActivityStreamsObject</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink">
+                <source>Activity Streams Media Link</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.id">
+                <source>Id</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.duration">
+                <source>Duration</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.height">
+                <source>Height</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.url">
+                <source>Url</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.width">
+                <source>Width</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.open_social">
+                <source>Open Social</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry">
+                <source>Activity Streams Entry</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.verb">
+                <source>Verb</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.user_id">
+                <source>User Id</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.group_id">
+                <source>Group Id</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.app_id">
+                <source>App Id</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.bcc">
+                <source>Bcc</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.bto">
+                <source>Bto</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.cc">
+                <source>Cc</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.context">
+                <source>Context</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.dc">
+                <source>Dc</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.end_time">
+                <source>End Time</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.geojson">
+                <source>Geojson</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.in_reply_to">
+                <source>In Reply To</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.ld">
+                <source>Ld</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.links">
+                <source>Links</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.location">
+                <source>Location</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.mood">
+                <source>Mood</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.odata">
+                <source>Odata</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.opengraph">
+                <source>Opengraph</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.priority">
+                <source>Priority</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.rating">
+                <source>Rating</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.result">
+                <source>Result</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.schema_org">
+                <source>Schema Org</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.source">
+                <source>Source</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.start_time">
+                <source>Start Time</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.tags">
+                <source>Tags</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.to_object">
+                <source>To Object</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.actor">
+                <source>Actor</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.generator">
+                <source>Generator</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.icon">
+                <source>Icon</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.object">
+                <source>Object</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.provider">
+                <source>Provider</source>
+            </trans-unit>
+            <trans-unit id="tx_socialcms_domain_model_activitystreamsentry.target">
+                <source>Target</source>
+            </trans-unit>
+            <trans-unit
+                    id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsEntry">
+                <source>SocialCMS ActivityStreamsEntry</source>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>

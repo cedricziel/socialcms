@@ -1,107 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:53:08Z" product-name="socialcms">
-		<header/>
-		<body>
-			<trans-unit id="title.description">
-				<source>title</source>
-			</trans-unit>
-			<trans-unit id="verb.description">
-				<source>verb</source>
-			</trans-unit>
-			<trans-unit id="user_id.description">
-				<source>userId</source>
-			</trans-unit>
-			<trans-unit id="group_id.description">
-				<source>groupId</source>
-			</trans-unit>
-			<trans-unit id="app_id.description">
-				<source>appId</source>
-			</trans-unit>
-			<trans-unit id="bcc.description">
-				<source>bcc</source>
-			</trans-unit>
-			<trans-unit id="bto.description">
-				<source>bto</source>
-			</trans-unit>
-			<trans-unit id="cc.description">
-				<source>cc</source>
-			</trans-unit>
-			<trans-unit id="context.description">
-				<source>context</source>
-			</trans-unit>
-			<trans-unit id="dc.description">
-				<source>dc</source>
-			</trans-unit>
-			<trans-unit id="end_time.description">
-				<source>endTime</source>
-			</trans-unit>
-			<trans-unit id="geojson.description">
-				<source>geojson</source>
-			</trans-unit>
-			<trans-unit id="in_reply_to.description">
-				<source>inReplyTo</source>
-			</trans-unit>
-			<trans-unit id="ld.description">
-				<source>ld</source>
-			</trans-unit>
-			<trans-unit id="links.description">
-				<source>links</source>
-			</trans-unit>
-			<trans-unit id="location.description">
-				<source>location</source>
-			</trans-unit>
-			<trans-unit id="mood.description">
-				<source>mood</source>
-			</trans-unit>
-			<trans-unit id="odata.description">
-				<source>odata</source>
-			</trans-unit>
-			<trans-unit id="opengraph.description">
-				<source>opengraph</source>
-			</trans-unit>
-			<trans-unit id="priority.description">
-				<source>priority</source>
-			</trans-unit>
-			<trans-unit id="rating.description">
-				<source>rating</source>
-			</trans-unit>
-			<trans-unit id="result.description">
-				<source>result</source>
-			</trans-unit>
-			<trans-unit id="schema_org.description">
-				<source>schemaOrg</source>
-			</trans-unit>
-			<trans-unit id="source.description">
-				<source>source</source>
-			</trans-unit>
-			<trans-unit id="start_time.description">
-				<source>startTime</source>
-			</trans-unit>
-			<trans-unit id="tags.description">
-				<source>tags</source>
-			</trans-unit>
-			<trans-unit id="to_object.description">
-				<source>toObject</source>
-			</trans-unit>
-			<trans-unit id="actor.description">
-				<source>actor</source>
-			</trans-unit>
-			<trans-unit id="generator.description">
-				<source>generator</source>
-			</trans-unit>
-			<trans-unit id="icon.description">
-				<source>icon</source>
-			</trans-unit>
-			<trans-unit id="object.description">
-				<source>object</source>
-			</trans-unit>
-			<trans-unit id="provider.description">
-				<source>provider</source>
-			</trans-unit>
-			<trans-unit id="target.description">
-				<source>target</source>
-			</trans-unit>
-		</body>
-	</file>
+    <file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T21:45:46Z"
+          product-name="socialcms">
+        <header/>
+        <body>
+            <trans-unit id="title.description">
+                <source>title</source>
+            </trans-unit>
+            <trans-unit id="verb.description">
+                <source>verb</source>
+            </trans-unit>
+            <trans-unit id="user_id.description">
+                <source>userId</source>
+            </trans-unit>
+            <trans-unit id="group_id.description">
+                <source>groupId</source>
+            </trans-unit>
+            <trans-unit id="app_id.description">
+                <source>appId</source>
+            </trans-unit>
+            <trans-unit id="bcc.description">
+                <source>bcc</source>
+            </trans-unit>
+            <trans-unit id="bto.description">
+                <source>bto</source>
+            </trans-unit>
+            <trans-unit id="cc.description">
+                <source>cc</source>
+            </trans-unit>
+            <trans-unit id="context.description">
+                <source>context</source>
+            </trans-unit>
+            <trans-unit id="dc.description">
+                <source>dc</source>
+            </trans-unit>
+            <trans-unit id="end_time.description">
+                <source>endTime</source>
+            </trans-unit>
+            <trans-unit id="geojson.description">
+                <source>geojson</source>
+            </trans-unit>
+            <trans-unit id="in_reply_to.description">
+                <source>inReplyTo</source>
+            </trans-unit>
+            <trans-unit id="ld.description">
+                <source>ld</source>
+            </trans-unit>
+            <trans-unit id="links.description">
+                <source>links</source>
+            </trans-unit>
+            <trans-unit id="location.description">
+                <source>location</source>
+            </trans-unit>
+            <trans-unit id="mood.description">
+                <source>mood</source>
+            </trans-unit>
+            <trans-unit id="odata.description">
+                <source>odata</source>
+            </trans-unit>
+            <trans-unit id="opengraph.description">
+                <source>opengraph</source>
+            </trans-unit>
+            <trans-unit id="priority.description">
+                <source>priority</source>
+            </trans-unit>
+            <trans-unit id="rating.description">
+                <source>rating</source>
+            </trans-unit>
+            <trans-unit id="result.description">
+                <source>result</source>
+            </trans-unit>
+            <trans-unit id="schema_org.description">
+                <source>schemaOrg</source>
+            </trans-unit>
+            <trans-unit id="source.description">
+                <source>source</source>
+            </trans-unit>
+            <trans-unit id="start_time.description">
+                <source>startTime</source>
+            </trans-unit>
+            <trans-unit id="tags.description">
+                <source>tags</source>
+            </trans-unit>
+            <trans-unit id="to_object.description">
+                <source>toObject</source>
+            </trans-unit>
+            <trans-unit id="actor.description">
+                <source>actor</source>
+            </trans-unit>
+            <trans-unit id="generator.description">
+                <source>generator</source>
+            </trans-unit>
+            <trans-unit id="icon.description">
+                <source>icon</source>
+            </trans-unit>
+            <trans-unit id="object.description">
+                <source>object</source>
+            </trans-unit>
+            <trans-unit id="provider.description">
+                <source>provider</source>
+            </trans-unit>
+            <trans-unit id="target.description">
+                <source>target</source>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
