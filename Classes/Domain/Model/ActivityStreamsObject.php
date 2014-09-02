@@ -293,6 +293,13 @@ class ActivityStreamsObject extends \CedricZiel\Socialcms\Domain\Model\ActivityS
 	protected $author = NULL;
 
 	/**
+	 * image
+	 *
+	 * @var \CedricZiel\Socialcms\Domain\Model\ActivityStreamsMediaLink
+	 */
+	protected $image = NULL;
+
+	/**
 	 * __construct
 	 */
 	public function __construct() {
@@ -1033,6 +1040,25 @@ class ActivityStreamsObject extends \CedricZiel\Socialcms\Domain\Model\ActivityS
 	 */
 	public function setAuthor(\CedricZiel\Socialcms\Domain\Model\ActivityStreamsObject $author) {
 		$this->author = $author;
+	}
+
+	/**
+	 * Returns the image
+	 *
+	 * @return \CedricZiel\Socialcms\Domain\Model\ActivityStreamsMediaLink $image
+	 */
+	public function getImage() {
+		return $this->image;
+	}
+
+	/**
+	 * Sets the image
+	 *
+	 * @param \CedricZiel\Socialcms\Domain\Model\ActivityStreamsMediaLink $image
+	 * @return void
+	 */
+	public function setImage(\CedricZiel\Socialcms\Domain\Model\ActivityStreamsMediaLink $image) {
+		$this->image = $image;
 	}
 
 }

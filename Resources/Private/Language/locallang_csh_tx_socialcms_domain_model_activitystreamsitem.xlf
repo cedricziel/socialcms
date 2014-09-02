@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:23:34Z" product-name="socialcms">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:34:56Z" product-name="socialcms">
 		<header/>
 		<body>
 			<trans-unit id="content.description">
@@ -113,6 +113,9 @@
 			</trans-unit>
 			<trans-unit id="author.description">
 				<source>author</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
 			</trans-unit>
 		</body>
 	</file>

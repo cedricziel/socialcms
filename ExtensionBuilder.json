@@ -113,8 +113,8 @@
         {
             "config": {
                 "position": [
-                    596,
-                    138
+                    523,
+                    114
                 ]
             },
             "name": "New Model Object",
@@ -516,8 +516,118 @@
                             "relationType": "manyToOne",
                             "relationWire": "[wired]",
                             "uid": "444752335938"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "image",
+                            "relationType": "manyToOne",
+                            "relationWire": "[wired]",
+                            "uid": "423098688940"
                         }
                     ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    782,
+                    53
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "ActivityStreamsMediaLink",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "459569774522"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "id",
+                            "propertyType": "String",
+                            "uid": "472799986287"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "duration",
+                            "propertyType": "Integer",
+                            "uid": "1360556633186"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "height",
+                            "propertyType": "Integer",
+                            "uid": "1342588286742"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "url",
+                            "propertyType": "String",
+                            "uid": "1051788592163"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "width",
+                            "propertyType": "String",
+                            "uid": "64352906985"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "openSocial",
+                            "propertyType": "Text",
+                            "uid": "1071731442266"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
                 }
             }
         }
@@ -574,10 +684,22 @@
                 "terminal": "SOURCES",
                 "uid": "645421442340"
             }
+        },
+        {
+            "src": {
+                "moduleId": 1,
+                "terminal": "relationWire_2",
+                "uid": "423098688940"
+            },
+            "tgt": {
+                "moduleId": 2,
+                "terminal": "SOURCES",
+                "uid": "459569774522"
+            }
         }
     ],
     "log": {
-        "last_modified": "2014-09-02 07:23",
+        "last_modified": "2014-09-02 07:34",
         "extension_builder_version": "6.2.0",
         "be_user": " (1)"
     }

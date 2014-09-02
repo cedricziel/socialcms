@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:23:34Z" product-name="socialcms">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:34:56Z" product-name="socialcms">
 		<header/>
 		<body>
 			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem">
@@ -150,8 +150,32 @@
 			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.author">
 				<source>Author</source>
 			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsobject.image">
+				<source>Image</source>
+			</trans-unit>
 			<trans-unit id="tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsObject">
 				<source>SocialCMS ActivityStreamsObject</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink">
+				<source>Activity Streams Media Link</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.duration">
+				<source>Duration</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.height">
+				<source>Height</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.url">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.width">
+				<source>Width</source>
+			</trans-unit>
+			<trans-unit id="tx_socialcms_domain_model_activitystreamsmedialink.open_social">
+				<source>Open Social</source>
 			</trans-unit>
 		</body>
 	</file>

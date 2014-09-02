@@ -34,6 +34,35 @@ $GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem'] = array(
 	),
 );
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_socialcms_domain_model_activitystreamsmedialink', 'EXT:socialcms/Resources/Private/Language/locallang_csh_tx_socialcms_domain_model_activitystreamsmedialink.xlf');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_socialcms_domain_model_activitystreamsmedialink');
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsmedialink'] = array(
+	'ctrl' => array(
+		'title'	=> 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsmedialink',
+		'label' => 'id',
+		'tstamp' => 'tstamp',
+		'crdate' => 'crdate',
+		'cruser_id' => 'cruser_id',
+		'dividers2tabs' => TRUE,
+
+		'versioningWS' => 2,
+		'versioning_followPages' => TRUE,
+
+		'languageField' => 'sys_language_uid',
+		'transOrigPointerField' => 'l10n_parent',
+		'transOrigDiffSourceField' => 'l10n_diffsource',
+		'delete' => 'deleted',
+		'enablecolumns' => array(
+			'disabled' => 'hidden',
+			'starttime' => 'starttime',
+			'endtime' => 'endtime',
+		),
+		'searchFields' => 'id,duration,height,url,width,open_social,',
+		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Configuration/TCA/ActivityStreamsMediaLink.php',
+		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_socialcms_domain_model_activitystreamsmedialink.gif'
+	),
+);
+
 if (!isset($GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['ctrl']['type'])) {
 	if (file_exists($GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['ctrl']['dynamicConfigFile'])) {
 		require_once($GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['ctrl']['dynamicConfigFile']);
@@ -417,6 +446,16 @@ $tmp_socialcms_columns = array(
 			'maxitems' => 1,
 		),
 	),
+	'image' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsobject.image',
+		'config' => array(
+			'type' => 'select',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsmedialink',
+			'minitems' => 0,
+			'maxitems' => 1,
+		),
+	),
 );
 
 $tmp_socialcms_columns['activitystreamsobject'] = array(
@@ -429,7 +468,7 @@ $tmp_socialcms_columns['activitystreamsobject'] = array(
 
 $GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsObject']['showitem'] = $TCA['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsItem']['showitem'];
 $GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsObject']['showitem'] .= ',--div--;LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsobject,';
-$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsObject']['showitem'] .= 'content, display_name, downstream_duplicates, summary, upstream_duplicates, alias, attended_by, attending, dc, end_time, followers, following, friend_requests, friends, geojson, invited, likes, ld, links, location, maybe_attending, members, not_attended_by, mood, not_attending, odata, opengraph, rating, replies, reviews, saves, schema_org, shares, source, start_time, attachments, author';
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsObject']['showitem'] .= 'content, display_name, downstream_duplicates, summary, upstream_duplicates, alias, attended_by, attending, dc, end_time, followers, following, friend_requests, friends, geojson, invited, likes, ld, links, location, maybe_attending, members, not_attended_by, mood, not_attending, odata, opengraph, rating, replies, reviews, saves, schema_org, shares, source, start_time, attachments, author, image';
 
 $GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['columns'][$TCA['tx_socialcms_domain_model_activitystreamsitem']['ctrl']['type']]['config']['items'][] = array('LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsObject','Tx_Socialcms_ActivityStreamsObject');
 

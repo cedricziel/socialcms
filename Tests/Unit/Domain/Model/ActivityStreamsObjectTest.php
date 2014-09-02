@@ -930,4 +930,28 @@ class ActivityStreamsObjectTest extends \TYPO3\CMS\Core\Tests\UnitTestCase {
 			$this->subject
 		);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getImageReturnsInitialValueForActivityStreamsMediaLink() {
+		$this->assertEquals(
+			NULL,
+			$this->subject->getImage()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setImageForActivityStreamsMediaLinkSetsImage() {
+		$imageFixture = new \CedricZiel\Socialcms\Domain\Model\ActivityStreamsMediaLink();
+		$this->subject->setImage($imageFixture);
+
+		$this->assertAttributeEquals(
+			$imageFixture,
+			'image',
+			$this->subject
+		);
+	}
 }
