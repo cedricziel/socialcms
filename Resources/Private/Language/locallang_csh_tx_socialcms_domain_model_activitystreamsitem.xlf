@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:34:56Z" product-name="socialcms">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:53:08Z" product-name="socialcms">
 		<header/>
 		<body>
-			<trans-unit id="content.description">
-				<source>content</source>
+			<trans-unit id="title.description">
+				<source>title</source>
 			</trans-unit>
-			<trans-unit id="display_name.description">
-				<source>displayName</source>
+			<trans-unit id="verb.description">
+				<source>verb</source>
 			</trans-unit>
-			<trans-unit id="downstream_duplicates.description">
-				<source>downstreamDuplicates</source>
+			<trans-unit id="user_id.description">
+				<source>userId</source>
 			</trans-unit>
-			<trans-unit id="summary.description">
-				<source>summary</source>
+			<trans-unit id="group_id.description">
+				<source>groupId</source>
 			</trans-unit>
-			<trans-unit id="upstream_duplicates.description">
-				<source>upstreamDuplicates</source>
+			<trans-unit id="app_id.description">
+				<source>appId</source>
 			</trans-unit>
-			<trans-unit id="alias.description">
-				<source>alias</source>
+			<trans-unit id="bcc.description">
+				<source>bcc</source>
 			</trans-unit>
-			<trans-unit id="attended_by.description">
-				<source>attendedBy</source>
+			<trans-unit id="bto.description">
+				<source>bto</source>
 			</trans-unit>
-			<trans-unit id="attending.description">
-				<source>attending</source>
+			<trans-unit id="cc.description">
+				<source>cc</source>
+			</trans-unit>
+			<trans-unit id="context.description">
+				<source>context</source>
 			</trans-unit>
 			<trans-unit id="dc.description">
 				<source>dc</source>
@@ -33,26 +36,11 @@
 			<trans-unit id="end_time.description">
 				<source>endTime</source>
 			</trans-unit>
-			<trans-unit id="followers.description">
-				<source>followers</source>
-			</trans-unit>
-			<trans-unit id="following.description">
-				<source>following</source>
-			</trans-unit>
-			<trans-unit id="friend_requests.description">
-				<source>friendRequests</source>
-			</trans-unit>
-			<trans-unit id="friends.description">
-				<source>friends</source>
-			</trans-unit>
 			<trans-unit id="geojson.description">
 				<source>geojson</source>
 			</trans-unit>
-			<trans-unit id="invited.description">
-				<source>invited</source>
-			</trans-unit>
-			<trans-unit id="likes.description">
-				<source>likes</source>
+			<trans-unit id="in_reply_to.description">
+				<source>inReplyTo</source>
 			</trans-unit>
 			<trans-unit id="ld.description">
 				<source>ld</source>
@@ -63,20 +51,8 @@
 			<trans-unit id="location.description">
 				<source>location</source>
 			</trans-unit>
-			<trans-unit id="maybe_attending.description">
-				<source>maybeAttending</source>
-			</trans-unit>
-			<trans-unit id="members.description">
-				<source>members</source>
-			</trans-unit>
-			<trans-unit id="not_attended_by.description">
-				<source>notAttendedBy</source>
-			</trans-unit>
 			<trans-unit id="mood.description">
 				<source>mood</source>
-			</trans-unit>
-			<trans-unit id="not_attending.description">
-				<source>notAttending</source>
 			</trans-unit>
 			<trans-unit id="odata.description">
 				<source>odata</source>
@@ -84,23 +60,17 @@
 			<trans-unit id="opengraph.description">
 				<source>opengraph</source>
 			</trans-unit>
+			<trans-unit id="priority.description">
+				<source>priority</source>
+			</trans-unit>
 			<trans-unit id="rating.description">
 				<source>rating</source>
 			</trans-unit>
-			<trans-unit id="replies.description">
-				<source>replies</source>
-			</trans-unit>
-			<trans-unit id="reviews.description">
-				<source>reviews</source>
-			</trans-unit>
-			<trans-unit id="saves.description">
-				<source>saves</source>
+			<trans-unit id="result.description">
+				<source>result</source>
 			</trans-unit>
 			<trans-unit id="schema_org.description">
 				<source>schemaOrg</source>
-			</trans-unit>
-			<trans-unit id="shares.description">
-				<source>shares</source>
 			</trans-unit>
 			<trans-unit id="source.description">
 				<source>source</source>
@@ -108,14 +78,29 @@
 			<trans-unit id="start_time.description">
 				<source>startTime</source>
 			</trans-unit>
-			<trans-unit id="attachments.description">
-				<source>attachments</source>
+			<trans-unit id="tags.description">
+				<source>tags</source>
 			</trans-unit>
-			<trans-unit id="author.description">
-				<source>author</source>
+			<trans-unit id="to_object.description">
+				<source>toObject</source>
 			</trans-unit>
-			<trans-unit id="image.description">
-				<source>image</source>
+			<trans-unit id="actor.description">
+				<source>actor</source>
+			</trans-unit>
+			<trans-unit id="generator.description">
+				<source>generator</source>
+			</trans-unit>
+			<trans-unit id="icon.description">
+				<source>icon</source>
+			</trans-unit>
+			<trans-unit id="object.description">
+				<source>object</source>
+			</trans-unit>
+			<trans-unit id="provider.description">
+				<source>provider</source>
+			</trans-unit>
+			<trans-unit id="target.description">
+				<source>target</source>
 			</trans-unit>
 		</body>
 	</file>

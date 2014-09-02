@@ -88,6 +88,339 @@ $GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['columns'][$TCA
 
 $tmp_socialcms_columns = array(
 
+	'title' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.title',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'verb' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.verb',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'user_id' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.user_id',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'group_id' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.group_id',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'app_id' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.app_id',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'bcc' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.bcc',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'bto' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.bto',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'cc' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.cc',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'context' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.context',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'dc' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.dc',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'end_time' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.end_time',
+		'config' => array(
+			'type' => 'input',
+			'size' => 10,
+			'eval' => 'datetime',
+			'checkbox' => 1,
+			'default' => time()
+		),
+	),
+	'geojson' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.geojson',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'in_reply_to' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.in_reply_to',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'ld' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.ld',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'links' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.links',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'location' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.location',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'mood' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.mood',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'odata' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.odata',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'opengraph' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.opengraph',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'priority' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.priority',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'rating' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.rating',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'result' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.result',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'schema_org' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.schema_org',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'source' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.source',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'start_time' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.start_time',
+		'config' => array(
+			'type' => 'input',
+			'size' => 10,
+			'eval' => 'datetime',
+			'checkbox' => 1,
+			'default' => time()
+		),
+	),
+	'tags' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.tags',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'to_object' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.to_object',
+		'config' => array(
+			'type' => 'input',
+			'size' => 30,
+			'eval' => 'trim'
+		),
+	),
+	'actor' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.actor',
+		'config' => array(
+			'type' => 'select',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsitem',
+			'minitems' => 0,
+			'maxitems' => 1,
+		),
+	),
+	'generator' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.generator',
+		'config' => array(
+			'type' => 'select',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsitem',
+			'minitems' => 0,
+			'maxitems' => 1,
+		),
+	),
+	'icon' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.icon',
+		'config' => array(
+			'type' => 'inline',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsmedialink',
+			'minitems' => 0,
+			'maxitems' => 1,
+			'appearance' => array(
+				'collapseAll' => 0,
+				'levelLinksPosition' => 'top',
+				'showSynchronizationLink' => 1,
+				'showPossibleLocalizationRecords' => 1,
+				'showAllLocalizationLink' => 1
+			),
+		),
+	),
+	'object' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.object',
+		'config' => array(
+			'type' => 'select',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsitem',
+			'minitems' => 0,
+			'maxitems' => 1,
+		),
+	),
+	'provider' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.provider',
+		'config' => array(
+			'type' => 'select',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsitem',
+			'minitems' => 0,
+			'maxitems' => 1,
+		),
+	),
+	'target' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry.target',
+		'config' => array(
+			'type' => 'inline',
+			'foreign_table' => 'tx_socialcms_domain_model_activitystreamsitem',
+			'minitems' => 0,
+			'maxitems' => 1,
+			'appearance' => array(
+				'collapseAll' => 0,
+				'levelLinksPosition' => 'top',
+				'showSynchronizationLink' => 1,
+				'showPossibleLocalizationRecords' => 1,
+				'showAllLocalizationLink' => 1
+			),
+		),
+	),
+);
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_socialcms_domain_model_activitystreamsitem',$tmp_socialcms_columns);
+
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsEntry']['showitem'] = $TCA['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsItem']['showitem'];
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsEntry']['showitem'] .= ',--div--;LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsentry,';
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['types']['Tx_Socialcms_ActivityStreamsEntry']['showitem'] .= 'title, verb, user_id, group_id, app_id, bcc, bto, cc, context, dc, end_time, geojson, in_reply_to, ld, links, location, mood, odata, opengraph, priority, rating, result, schema_org, source, start_time, tags, to_object, actor, generator, icon, object, provider, target';
+
+$GLOBALS['TCA']['tx_socialcms_domain_model_activitystreamsitem']['columns'][$TCA['tx_socialcms_domain_model_activitystreamsitem']['ctrl']['type']]['config']['items'][] = array('LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsitem.tx_extbase_type.Tx_Socialcms_ActivityStreamsEntry','Tx_Socialcms_ActivityStreamsEntry');
+
+$tmp_socialcms_columns = array(
+
 	'content' => array(
 		'exclude' => 1,
 		'label' => 'LLL:EXT:socialcms/Resources/Private/Language/locallang_db.xlf:tx_socialcms_domain_model_activitystreamsobject.content',

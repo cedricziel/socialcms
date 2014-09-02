@@ -142,6 +142,47 @@ CREATE TABLE tx_socialcms_domain_model_activitystreamsmedialink (
 #
 CREATE TABLE tx_socialcms_domain_model_activitystreamsitem (
 
+	title varchar(255) DEFAULT '' NOT NULL,
+	verb varchar(255) DEFAULT '' NOT NULL,
+	user_id varchar(255) DEFAULT '' NOT NULL,
+	group_id varchar(255) DEFAULT '' NOT NULL,
+	app_id varchar(255) DEFAULT '' NOT NULL,
+	bcc varchar(255) DEFAULT '' NOT NULL,
+	bto varchar(255) DEFAULT '' NOT NULL,
+	cc varchar(255) DEFAULT '' NOT NULL,
+	context varchar(255) DEFAULT '' NOT NULL,
+	dc varchar(255) DEFAULT '' NOT NULL,
+	end_time int(11) DEFAULT '0' NOT NULL,
+	geojson varchar(255) DEFAULT '' NOT NULL,
+	in_reply_to varchar(255) DEFAULT '' NOT NULL,
+	ld varchar(255) DEFAULT '' NOT NULL,
+	links varchar(255) DEFAULT '' NOT NULL,
+	location varchar(255) DEFAULT '' NOT NULL,
+	mood varchar(255) DEFAULT '' NOT NULL,
+	odata varchar(255) DEFAULT '' NOT NULL,
+	opengraph varchar(255) DEFAULT '' NOT NULL,
+	priority varchar(255) DEFAULT '' NOT NULL,
+	rating varchar(255) DEFAULT '' NOT NULL,
+	result varchar(255) DEFAULT '' NOT NULL,
+	schema_org varchar(255) DEFAULT '' NOT NULL,
+	source varchar(255) DEFAULT '' NOT NULL,
+	start_time int(11) DEFAULT '0' NOT NULL,
+	tags varchar(255) DEFAULT '' NOT NULL,
+	to_object varchar(255) DEFAULT '' NOT NULL,
+	actor int(11) unsigned DEFAULT '0',
+	generator int(11) unsigned DEFAULT '0',
+	icon int(11) unsigned DEFAULT '0',
+	object int(11) unsigned DEFAULT '0',
+	provider int(11) unsigned DEFAULT '0',
+	target int(11) unsigned DEFAULT '0',
+
+);
+
+#
+# Table structure for table 'tx_socialcms_domain_model_activitystreamsitem'
+#
+CREATE TABLE tx_socialcms_domain_model_activitystreamsitem (
+
 	activitystreamsobject  int(11) unsigned DEFAULT '0' NOT NULL,
 
 );

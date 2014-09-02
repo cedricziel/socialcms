@@ -6,6 +6,7 @@ config.tx_extbase{
             CedricZiel\Socialcms\Domain\Model\ActivityStreamsItem {
                 subclasses {
                     Tx_Socialcms_ActivityStreamsObject = CedricZiel\Socialcms\Domain\Model\ActivityStreamsObject
+					Tx_Socialcms_ActivityStreamsEntry = CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry
 					
           		}
             }
@@ -13,6 +14,13 @@ config.tx_extbase{
                 mapping {
                     tableName = tx_socialcms_domain_model_activitystreamsitem
                     recordType = Tx_Socialcms_ActivityStreamsObject
+                }
+            }
+            
+            CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry {
+                mapping {
+                    tableName = tx_socialcms_domain_model_activitystreamsitem
+                    recordType = Tx_Socialcms_ActivityStreamsEntry
                 }
             }
             
