@@ -1,0 +1,21 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            CedricZiel\Socialcms\Domain\Model\ActivityStreamsItem {
+                subclasses {
+                    Tx_Socialcms_ActivityStreamsObject = CedricZiel\Socialcms\Domain\Model\ActivityStreamsObject
+					
+          		}
+            }
+            CedricZiel\Socialcms\Domain\Model\ActivityStreamsObject {
+                mapping {
+                    tableName = tx_socialcms_domain_model_activitystreamsitem
+                    recordType = Tx_Socialcms_ActivityStreamsObject
+                }
+            }
+            
+    	}
+    }
+}

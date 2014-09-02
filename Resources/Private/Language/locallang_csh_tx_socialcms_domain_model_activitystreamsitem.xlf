@@ -1,28 +1,118 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T18:41:39Z" product-name="socialcms">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-02T19:23:34Z" product-name="socialcms">
 		<header/>
 		<body>
-			<trans-unit id="id.description">
-				<source>id</source>
+			<trans-unit id="content.description">
+				<source>content</source>
 			</trans-unit>
-			<trans-unit id="published.description">
-				<source>published</source>
+			<trans-unit id="display_name.description">
+				<source>displayName</source>
 			</trans-unit>
-			<trans-unit id="updated.description">
-				<source>updated</source>
+			<trans-unit id="downstream_duplicates.description">
+				<source>downstreamDuplicates</source>
 			</trans-unit>
-			<trans-unit id="url.description">
-				<source>url</source>
+			<trans-unit id="summary.description">
+				<source>summary</source>
 			</trans-unit>
-			<trans-unit id="object_type.description">
-				<source>objectType</source>
+			<trans-unit id="upstream_duplicates.description">
+				<source>upstreamDuplicates</source>
 			</trans-unit>
-			<trans-unit id="open_social.description">
-				<source>openSocial</source>
+			<trans-unit id="alias.description">
+				<source>alias</source>
 			</trans-unit>
-			<trans-unit id="extensions.description">
-				<source>extensions</source>
+			<trans-unit id="attended_by.description">
+				<source>attendedBy</source>
+			</trans-unit>
+			<trans-unit id="attending.description">
+				<source>attending</source>
+			</trans-unit>
+			<trans-unit id="dc.description">
+				<source>dc</source>
+			</trans-unit>
+			<trans-unit id="end_time.description">
+				<source>endTime</source>
+			</trans-unit>
+			<trans-unit id="followers.description">
+				<source>followers</source>
+			</trans-unit>
+			<trans-unit id="following.description">
+				<source>following</source>
+			</trans-unit>
+			<trans-unit id="friend_requests.description">
+				<source>friendRequests</source>
+			</trans-unit>
+			<trans-unit id="friends.description">
+				<source>friends</source>
+			</trans-unit>
+			<trans-unit id="geojson.description">
+				<source>geojson</source>
+			</trans-unit>
+			<trans-unit id="invited.description">
+				<source>invited</source>
+			</trans-unit>
+			<trans-unit id="likes.description">
+				<source>likes</source>
+			</trans-unit>
+			<trans-unit id="ld.description">
+				<source>ld</source>
+			</trans-unit>
+			<trans-unit id="links.description">
+				<source>links</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>location</source>
+			</trans-unit>
+			<trans-unit id="maybe_attending.description">
+				<source>maybeAttending</source>
+			</trans-unit>
+			<trans-unit id="members.description">
+				<source>members</source>
+			</trans-unit>
+			<trans-unit id="not_attended_by.description">
+				<source>notAttendedBy</source>
+			</trans-unit>
+			<trans-unit id="mood.description">
+				<source>mood</source>
+			</trans-unit>
+			<trans-unit id="not_attending.description">
+				<source>notAttending</source>
+			</trans-unit>
+			<trans-unit id="odata.description">
+				<source>odata</source>
+			</trans-unit>
+			<trans-unit id="opengraph.description">
+				<source>opengraph</source>
+			</trans-unit>
+			<trans-unit id="rating.description">
+				<source>rating</source>
+			</trans-unit>
+			<trans-unit id="replies.description">
+				<source>replies</source>
+			</trans-unit>
+			<trans-unit id="reviews.description">
+				<source>reviews</source>
+			</trans-unit>
+			<trans-unit id="saves.description">
+				<source>saves</source>
+			</trans-unit>
+			<trans-unit id="schema_org.description">
+				<source>schemaOrg</source>
+			</trans-unit>
+			<trans-unit id="shares.description">
+				<source>shares</source>
+			</trans-unit>
+			<trans-unit id="source.description">
+				<source>source</source>
+			</trans-unit>
+			<trans-unit id="start_time.description">
+				<source>startTime</source>
+			</trans-unit>
+			<trans-unit id="attachments.description">
+				<source>attachments</source>
+			</trans-unit>
+			<trans-unit id="author.description">
+				<source>author</source>
 			</trans-unit>
 		</body>
 	</file>
