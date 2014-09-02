@@ -84,6 +84,29 @@ class ActivityStreamsEntryController extends \TYPO3\CMS\Extbase\Mvc\Controller\A
 	}
 
 	/**
+	 * action edit
+	 *
+	 * @param \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry $activityStreamsEntry
+	 * @ignorevalidation $activityStreamsEntry
+	 * @return void
+	 */
+	public function editAction(\CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry $activityStreamsEntry) {
+		$this->view->assign('activityStreamsEntry', $activityStreamsEntry);
+	}
+
+	/**
+	 * action update
+	 *
+	 * @param \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry $activityStreamsEntry
+	 * @return void
+	 */
+	public function updateAction(\CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry $activityStreamsEntry) {
+		$this->addFlashMessage('The object was updated. Please be aware that this action is publicly accessible unless you implement an access check. See <a href="http://wiki.typo3.org/T3Doc/Extension_Builder/Using_the_Extension_Builder#1._Model_the_domain" target="_blank">Wiki</a>', '', \TYPO3\CMS\Core\Messaging\AbstractMessage::ERROR);
+		$this->activityStreamsEntryRepository->update($activityStreamsEntry);
+		$this->redirect('list');
+	}
+
+	/**
 	 * action delete
 	 *
 	 * @param \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry $activityStreamsEntry

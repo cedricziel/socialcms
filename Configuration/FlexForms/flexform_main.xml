@@ -15,7 +15,7 @@
 								<items>
 									<numIndex index="0">
 										<numIndex index="0"></numIndex>
-										<numIndex index="1">ActivityStreamsEntry->list;ActivityStreamsEntry->show;ActivityStreamsEntry->hide;ActivityStreamsEntry->like;ActivityStreamsEntry->comment;ActivityStreamsEntry->create;ActivityStreamsEntry->new</numIndex>
+										<numIndex index="1">ActivityStreamsEntry->list;ActivityStreamsEntry->show;ActivityStreamsEntry->hide;ActivityStreamsEntry->like;ActivityStreamsEntry->comment;ActivityStreamsEntry->create;ActivityStreamsEntry->new;ActivityStreamsEntry->edit;ActivityStreamsEntry->update</numIndex>
 									</numIndex>
 								</items>
 							</config>

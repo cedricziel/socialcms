@@ -104,6 +104,32 @@ class ActivityStreamsEntryControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestC
 	/**
 	 * @test
 	 */
+	public function editActionAssignsTheGivenActivityStreamsEntryToView() {
+		$activityStreamsEntry = new \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry();
+
+		$view = $this->getMock('TYPO3\\CMS\\Extbase\\Mvc\\View\\ViewInterface');
+		$this->inject($this->subject, 'view', $view);
+		$view->expects($this->once())->method('assign')->with('activityStreamsEntry', $activityStreamsEntry);
+
+		$this->subject->editAction($activityStreamsEntry);
+	}
+
+	/**
+	 * @test
+	 */
+	public function updateActionUpdatesTheGivenActivityStreamsEntryInActivityStreamsEntryRepository() {
+		$activityStreamsEntry = new \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry();
+
+		$activityStreamsEntryRepository = $this->getMock('CedricZiel\\Socialcms\\Domain\\Repository\\ActivityStreamsEntryRepository', array('update'), array(), '', FALSE);
+		$activityStreamsEntryRepository->expects($this->once())->method('update')->with($activityStreamsEntry);
+		$this->inject($this->subject, 'activityStreamsEntryRepository', $activityStreamsEntryRepository);
+
+		$this->subject->updateAction($activityStreamsEntry);
+	}
+
+	/**
+	 * @test
+	 */
 	public function deleteActionRemovesTheGivenActivityStreamsEntryFromActivityStreamsEntryRepository() {
 		$activityStreamsEntry = new \CedricZiel\Socialcms\Domain\Model\ActivityStreamsEntry();
 
